@@ -1,0 +1,99 @@
+p {
+	margin: 1px 0;
+}
+#wrapper {
+	margin-left: 20 px;
+}
+header {
+	padding: 20px 0;
+}
+form[name="search"] {
+	float: center;
+}
+button {
+  display:inline;
+  border-collapse: collapse;
+  background: transparent:
+   outline: none;
+    border-radius: 6px;
+    width: 3em;
+ height: 3em;
+ position: relative;
+
+}
+nav a {
+	text-decoration: none;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	list-style-position: inside;
+	font: 14px 'Oswald', sans-serif;
+	padding: 10px;
+}
+
+.top-menu li {
+	display: inline-block;
+	padding: 10px 30px;
+	margin: 0;
+}
+
+.top-menu li.active {
+	color: #4285f4;
+  border-bottom: 3px solid #4285f4;
+}
+
+.top-menu a {
+	color: #b2b2b2;
+}
+pre {
+  font-family: arial,sans-serif;
+  font-size: 18px;
+  padding-left: 20 px;
+}
+.green{
+  color: green;
+}
+.bottom-menu li {
+	display: inline-block;
+	padding: 10px 30px;
+	margin: 0;
+  background: #E6E6FA;
+}
+#searchButton {
+
+ background: url("../images/2.png") ;
+ no-repeat center center fixed;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+ text-indent:-9999px;
+
+
+ height: 64px;
+ width: 64px;
+
+}
+
+   .layer1 {
+    float: left;
+   }
+	 #logo img {
+	     left: 0;
+	     position: absolute;
+	     top: -41px;
+	 }
+	  #logo{
+			float:left;
+		   margin:.5em 10px .5em 0;
+		   overflow:hidden; /* this is important */
+		   position:relative; /* this is important too */
+		   border:0;
+		   width:92px;
+		   height:35px;
+}
